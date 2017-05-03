@@ -1,0 +1,27 @@
+.warning{
+    border: 6px solid #b53b34;
+    width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #d3d1d2;
+}
+
+.warning h1{
+    color: #FF0000;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.warning li{
+    padding-bottom: 10px;
+}
+
+.warning li a{
+    font-weight: bold;
+}
+
+.warning li span{
+    color: #FF0000;
+}
+

@@ -1,0 +1,33 @@
+body{
+    background-color: #536482;
+}
+
+.login{
+    border: 8px solid #663144;
+    padding: 20px;
+    margin: 150px auto;
+    width: 350px;
+    background-color: #39465b;
+    line-height: 20px;
+}
+
+label {
+    color: white;
+    
+}
+
+.login table tr input{
+    margin-top: 10px;
+    margin-left: 10px; 
+}
+
+.login table tr label{
+    margin-top: 10px;
+    margin-left: 10px; 
+}
+
+
+.login table tr input.btn{
+    float: right;
+    width: 100px;
+}

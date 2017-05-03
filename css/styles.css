@@ -1,0 +1,241 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+
+/* Start Nav Section */
+.navbar-inverse .navbar-brand {
+    color: #63c37d; 
+    font-weight: bold;
+}
+
+.navbar-inverse {
+    border-radius: 0px;
+    font-size: 16px;
+}
+
+
+/* End Nav Section */
+
+/* Start Slider Section */
+div .carousel-inner{
+    margin-top: -20px;
+    position: relative;
+    height: 500px;
+}
+
+div .carousel-inner img{
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div .carousel-inner .carousel-caption {
+    bottom: 100px;
+    max-height: 270px;
+    background: rgba(3,3,3,0.5);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+
+div .carousel-inner .carousel-caption p{
+    font-size: 15px;
+    text-align: justify;
+    padding: 10px 20px 0;
+}
+
+div .carousel-inner .carousel-caption .btn{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    background-color: darkred;
+    border-color: darkred;
+}
+
+.carousel-indicators{
+    bottom: 0px;
+}
+
+.carousel-indicators .active{
+    width: 17px;
+    height: 17px;
+    background-color: red;
+}
+
+@media (max-width:1020px){
+    div .carousel-inner .carousel-caption {
+        bottom: 50px; 
+    }
+}
+@media (max-width:800px){
+    div .carousel-inner .carousel-caption {
+        display: none;
+    }
+}
+/* End Slider Section */
+
+/* Start Admin Section */
+.price-table .h1{
+    padding-bottom: 30px;
+    font-weight: bold;
+    color: #5b5353;
+}
+
+.price-table{
+    background-color: #EEE;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.price-table .row{
+    background-color: #5d5e5c;
+    border: 10px solid #c1d6ad;
+    
+}
+.price-table .row .leftContainer{
+    border-right: 5px solid #c1d6ad;
+    position: relative;
+    padding: 30px;
+}
+.price-table .row img{
+    border-radius: 50%;
+    margin-top: 30px;
+    border: 3px solid #cdcecc;
+    position: relative;
+    box-shadow: 10px 4px 30px 0 rgba(0, 0, 0, 0.7), 10px 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.7s ease;
+}
+
+.price-table .row img:hover{
+    transform: rotateZ(-360deg);
+}
+
+.price-table .row .leftSide{
+    text-align: left;
+    margin-left: 70px;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.price-table .row .rightSide{
+    padding: 90px 60px 0;
+    text-align: justify;
+    color: #FFFFFF;
+    line-height: 40px;
+}
+
+@media (max-width:992px){
+    .price-table .row .leftContainer{
+        border-right: 0px;
+        padding: 60px 60px 0; 
+    }
+    .price-table .row .rightSide{
+        padding: 20px 60px 10px;
+    }
+    .price-table .row .leftSide{
+        display: none;
+    }
+}
+
+/* End Admin Section*/
+
+/* Start Teacher Section */
+
+.teachers{
+    padding: 30px 0 40px;
+    background-color: rgba(71, 105, 100, 0.39);
+}
+
+.teachers .h1{
+    padding-bottom: 30px;
+    font-weight: bold;
+    color: #5b5353;
+}
+
+.teachers .stats{
+    border: 5px solid #5b5353;
+    border-radius: 20px;
+    background-color: #FFF;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    min-height: 550px;
+}
+
+.teachers .stats h2{
+    padding: 10px;
+}
+
+.teachers img{
+    margin-top: 20px;
+    border: 5px solid #c1d6ad;
+    border-radius: 50%;
+    max-width: 60%;
+    max-height: 160px;
+    box-shadow: 5px 4px 15px 0 rgba(0, 0, 0, 0.4), 10px 6px 20px 0 rgba(0, 0, 0, 0.1);
+    transition: all 0.7s ease;
+}
+
+.teachers img:hover{
+    transform: rotateZ(-360deg);
+}
+
+
+.teachers p{
+    padding: 0 20px;
+    text-align: justify;
+}
+
+@media (max-width:767px){
+    .teachers .stats{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+/* End Teacher Section */
+
+/* Start Footer */
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: #4c4a4a;
+    color: #FFF;
+    text-align: right;
+    font-size: 18px;
+    padding: 10px 30px;
+}
+
+.footer .logo{
+    color: #3cd273;
+    font-weight: bold;
+}
+.footer .logo:hover{
+    cursor: pointer;
+}
+.footer .two{
+    color: #d33d3d;
+    font-weight: bold;
+}
+.footer .hiddenDiv{
+    display: none;
+    margin-top: -43px;
+    margin-right: -18px;
+    background-color: #3cd273;
+    color: #FFF;
+    width: 191px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    float: right;
+}
+
+/* End Footer */
+
