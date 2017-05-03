@@ -1,6 +1,6 @@
 <?php
     error_reporting(0);
-    mysql_connect("localhost","root","abdullilah706");
+    mysql_connect("localhost","root","");
     mysql_select_db("loginStudents");
 
     $username = $_POST["username"];
